@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home"
+        android:id="@+id/home" />
+    <item android:title="@string/our_company"
+        android:id="@+id/our_company"/>
+    <item android:title="@string/services"
+        android:id="@+id/services"/>
+    <item android:title="@string/portfolio"
+        android:id="@+id/Portfolio"/>
+    <item android:title="@string/contact_us"
+        android:id="@+id/contact_us"/>
+
+
+</menu>
