@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#4D5E77</color>
     <color name="foreground_color">#96222f3e</color>
+    <color name="dash_color">#274C85</color>
+    <color name="cardView_background">#24214A</color>
 </resources>

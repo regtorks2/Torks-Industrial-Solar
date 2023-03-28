@@ -114,10 +114,10 @@
             android:scaleType="fitXY"/>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="350dp"
-            android:layout_height="150dp"
+            android:layout_width="380dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="5dp">
 
             <TextView
@@ -141,6 +141,142 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="50dp"
                 android:textStyle="bold"/>
+
+          <View
+              android:layout_width="25dp"
+              android:layout_height="3dp"
+              android:background="@color/dash_color"
+              android:layout_marginTop="75dp"
+              android:layout_marginStart="178dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/applying_decades_of_experience_backed_with_a_depth_of_knowledge_in_nelectronic_and_electrical_engineering_all_for_the_stability_of_your_plants"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+               />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="105dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="15dp"
+            android:backgroundTint="@color/cardView_background"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_wb_sunny_24"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quick_response_time"
+                android:textSize="8sp"
+                android:layout_marginTop="49dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:layout_marginStart="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/with_a_knack_for_quick_ndelivery_we_are_capable_of_answering_and_delivering_top_notch_solutions_for_our_clients"
+                android:textSize="8sp"
+                android:layout_marginTop="69dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="105dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="155dp"
+            android:backgroundTint="@color/cardView_background"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fire_department"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/efficient_workmanship"
+                android:textSize="8sp"
+                android:layout_marginTop="49dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:layout_marginStart="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/with_over_thirty_years_of_experience_we_have_the_capability_to_resolve_any_maintenance_and_troubleshooting_issues"
+                android:textSize="8sp"
+                android:layout_marginTop="69dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="105dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="295dp"
+            android:backgroundTint="@color/cardView_background"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bolt"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reliability"
+                android:textSize="8sp"
+                android:layout_marginTop="49dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:layout_marginStart="29dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/our_word_is_our_bond_we_have_a_team_whoa_re_honest_and_truthful_in_our_assessment_and_troubleshooting_services"
+                android:textSize="8sp"
+                android:layout_marginTop="69dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"/>
+
         </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
