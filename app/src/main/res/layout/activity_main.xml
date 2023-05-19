@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background_color">
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -421,7 +425,9 @@
     android:text="@string/torks_industrial_all_rights_reserved_2023"
     android:fontFamily="@font/montserrat_light"
     android:textColor="@color/white"
-    android:textSize="10sp"/>
+    android:textSize="10sp"
+    android:layout_marginTop="10dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
