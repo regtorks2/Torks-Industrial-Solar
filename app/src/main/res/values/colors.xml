@@ -11,4 +11,5 @@
     <color name="foreground_color">#96222f3e</color>
     <color name="dash_color">#274C85</color>
     <color name="cardView_background">#24214A</color>
+    <color name="yellow">#FFC639</color>
 </resources>
