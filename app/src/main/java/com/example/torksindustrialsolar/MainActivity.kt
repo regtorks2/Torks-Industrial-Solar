@@ -1,20 +1,23 @@
 package com.example.torksindustrialsolar
 
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.graphics.Color
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.ProgressBar
-import androidx.viewpager.widget.ViewPager
 import com.example.torksindustrialsolar.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var progressBar: ProgressBar
     private lateinit var progressBar1: ProgressBar
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +33,13 @@ class MainActivity : AppCompatActivity() {
         progress2()
 
     }
+
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.app_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
 
     private fun progress1(){
         progressBar = binding.progress1
@@ -48,4 +58,20 @@ class MainActivity : AppCompatActivity() {
             .setDuration(2000)
             .start()
     }
+
+     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId){
+            R.id.our_company -> {
+                 val intent = Intent(this, OurCompany::class.java)
+                startActivity(intent)
+                true
+            }
+            else -> {
+                return super.onOptionsItemSelected(item)
+            }
+        }
+
+
+    }
+
 }

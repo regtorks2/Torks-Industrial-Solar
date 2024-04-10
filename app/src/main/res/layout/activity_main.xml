@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/background_color">
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity"
     android:background="@color/background_color"
     android:id="@+id/layout">
 
@@ -19,17 +20,20 @@
        app:layout_constraintTop_toTopOf="@id/layout"
        app:layout_constraintLeft_toLeftOf="@id/layout"
        app:layout_constraintRight_toRightOf="@+id/layout">
+
        <com.google.android.material.appbar.AppBarLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:id="@+id/appBar">
            
-           <com.google.android.material.appbar.MaterialToolbar
+           <androidx.appcompat.widget.Toolbar
                android:layout_width="match_parent"
                android:layout_height="?attr/actionBarSize"
                android:background="@color/white"
                app:menu="@menu/app_menu"
-               android:id="@+id/toolbar">
+               android:id="@+id/toolbar"
+               android:clickable="true"
+               android:focusable="true">
 
                <RelativeLayout
                    android:layout_width="match_parent"
@@ -63,9 +67,10 @@
 
 
 
-           </com.google.android.material.appbar.MaterialToolbar>
+           </androidx.appcompat.widget.Toolbar>
        </com.google.android.material.appbar.AppBarLayout>
    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 
     <RelativeLayout
         android:id="@+id/header"
@@ -330,7 +335,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="70dp"
                 android:layout_marginStart="8dp"/>
-            
+
             <ProgressBar
                 android:id="@+id/progress1"
                 android:layout_width="130dp"
@@ -338,7 +343,7 @@
                 android:layout_marginTop="120dp"
                 android:layout_marginStart="10dp"
                 style ="@style/Widget.AppCompat.ProgressBar.Horizontal" />
-            
+
           <TextView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
@@ -363,7 +368,7 @@
                 android:layout_marginTop="152dp"
                 android:layout_marginStart="10dp"/>
         </androidx.cardview.widget.CardView>
-        
+
         <androidx.cardview.widget.CardView
             android:layout_width="215sp"
             android:layout_height="72dp"
@@ -414,6 +419,7 @@
 
 
     </RelativeLayout>
+
     
 <TextView
     android:layout_width="wrap_content"
